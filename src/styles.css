@@ -521,8 +521,32 @@ footer{
 @media screen and (max-width:900px){
     header{
         background-position: center;
+        width: 100%;
+        height: 600px;
+    
+        background: #56ab2f;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, hsla(87, 67%, 63%, 0.325), hsla(101, 57%, 43%, 0.306)),url(../src/assets/index.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, hsla(87, 67%, 63%, 0.325), hsla(101, 57%, 43%, 0.306)),url(../src/assets/index.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+       
+        background-size: cover;
+        background-attachment: fixed;
+
     }
 
+    
+    
+
+    .portafolio{
+        background: #56ab2f;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, hsla(87, 67%, 63%, 0.325), hsla(101, 57%, 43%, 0.306)),url(../src/assets/ermita.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, hsla(87, 67%, 63%, 0.325), hsla(101, 57%, 43%, 0.306)),url(../src/assets/ermita.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    
     
 
     .contenedor-sobre-nosotros{
@@ -616,6 +640,21 @@ footer{
 }
 
 @media screen and (max-width:500px){
+    header{
+        background-position: center;
+        width: 100%;
+        height: 600px;
+    
+        background: #56ab2f;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, hsla(87, 67%, 63%, 0.325), hsla(101, 57%, 43%, 0.306)),url(../src/assets/index.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, hsla(87, 67%, 63%, 0.325), hsla(101, 57%, 43%, 0.306)),url(../src/assets/index.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+       
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
     nav{
         text-align: center;
         padding: 30px 0 0 0;
@@ -631,6 +670,15 @@ footer{
 
     .textos-header h2{
         font-size: 20px;
+    }
+
+    .portafolio{
+        background: #56ab2f;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, hsla(87, 67%, 63%, 0.325), hsla(101, 57%, 43%, 0.306)),url(../src/assets/ermita.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, hsla(87, 67%, 63%, 0.325), hsla(101, 57%, 43%, 0.306)),url(../src/assets/ermita.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
     }
 
     /* ABOUT US */
@@ -707,4 +755,8 @@ footer{
     .titulo-final{
         font-size: 20px;
     }
+
+    
+
+    
 }
