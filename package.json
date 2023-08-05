@@ -1,6 +1,9 @@
 {
   "name": "exportcamposas",
   "version": "0.0.0",
+  "engines": {
+    "node": "18.17.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
