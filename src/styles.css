@@ -104,7 +104,6 @@ header {
     -webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
-    background-attachment: fixed;
     position: relative;
 
 }
@@ -247,7 +246,6 @@ main .sobre-nosotros{
     -webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
-    background-attachment: fixed;
     position: relative;
 }
 
@@ -536,7 +534,6 @@ footer{
     -webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
-    background-attachment: fixed;
     position: relative;
 
     }
@@ -551,7 +548,6 @@ footer{
         -webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
-        background-attachment: fixed;
         position: relative;
     }
 
@@ -659,7 +655,6 @@ footer{
         -webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
-        background-attachment: fixed;
         position: relative;
 
     }
@@ -674,7 +669,6 @@ footer{
         -webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
-        background-attachment: fixed;
         position: relative;
     }
 
