@@ -199,12 +199,22 @@ main .sobre-nosotros{
     justify-content:space-around;
 }
 
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
 
 .imagen-about-us{
     width: 80%;
     height: 60%;
     object-fit: cover;
     justify-content:left;
+    animation: pulse 2s infinite;
+    padding-right: 50px;
     
 }
 
@@ -256,6 +266,10 @@ main .sobre-nosotros{
     flex-flow: wrap;
 }
 
+.imagen-port:hover {
+    transform: rotate(360deg);
+}
+
 
 .imagen-port{
     width: 300px;
@@ -266,6 +280,7 @@ main .sobre-nosotros{
     cursor: pointer;
     border-radius: 100%;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    transition: transform 0.5s;
 }
 
 .imagen-port > img{
@@ -569,6 +584,8 @@ footer{
         width: 100%;
         justify-content: center;
         align-items: center;
+        padding-right: 0px;
+        padding-bottom: 20px;
     }
 
     .eligenos{
@@ -693,13 +710,12 @@ footer{
     /* ABOUT US */
 
     .imagen-about-us{
-        .imagen-about-us{
             width: 100%;
             justify-content: center;
             align-items: center;
             padding-left: 150px;
             padding-bottom: 50px;
-        }
+        
     }
 
     .sobre-nosotros .contenido-textos{
