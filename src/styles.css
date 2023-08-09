@@ -530,11 +530,11 @@ footer{
     background: linear-gradient(to right, hsla(87, 67%, 63%, 0.325), hsla(101, 57%, 43%, 0.306)), url(../src/assets/index.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     /* Agrega otras propiedades según sea necesario */
-    background-size: cover;
-    -webkit-background-size: cover; 
-	-moz-background-size: cover; 
-	-o-background-size: cover; 
-    position: relative;
+    background-size: contain;
+    -webkit-background-size: contain; 
+	-moz-background-size: contain; 
+	-o-background-size: contain; 
+    position: center;
 
     }
 
@@ -544,11 +544,11 @@ footer{
         background: linear-gradient(to right, hsla(87, 67%, 63%, 0.325), hsla(101, 57%, 43%, 0.306)), url(../src/assets/ermita.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
         /* Agrega otras propiedades según sea necesario */
-        background-size: cover;
-        -webkit-background-size: cover; 
-	-moz-background-size: cover; 
-	-o-background-size: cover; 
-        position: relative;
+        background-size: contain;
+        -webkit-background-size: contain; 
+	-moz-background-size: contain; 
+	-o-background-size: contain; 
+        position: center;
     }
 
     
@@ -651,11 +651,11 @@ footer{
         background: linear-gradient(to right, hsla(87, 67%, 63%, 0.325), hsla(101, 57%, 43%, 0.306)), url(../src/assets/index.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
         /* Agrega otras propiedades según sea necesario */
-        background-size: cover;
-        -webkit-background-size: cover; 
-	-moz-background-size: cover; 
-	-o-background-size: cover; 
-        position: relative;
+        background-size: contain;
+        -webkit-background-size: contain; 
+	    -moz-background-size: contain; 
+	    -o-background-size: contain; 
+        position: center;
 
     }
 
@@ -665,11 +665,11 @@ footer{
         background: linear-gradient(to right, hsla(87, 67%, 63%, 0.325), hsla(101, 57%, 43%, 0.306)), url(../src/assets/ermita.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
         /* Agrega otras propiedades según sea necesario */
-        background-size: cover;
-        -webkit-background-size: cover; 
-	-moz-background-size: cover; 
-	-o-background-size: cover; 
-        position: relative;
+        background-size: contain;
+        -webkit-background-size: contain; 
+	-moz-background-size: contain; 
+	-o-background-size: contain; 
+        position: center;
     }
 
     nav{
