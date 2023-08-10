@@ -218,6 +218,17 @@ main .sobre-nosotros{
     
 }
 
+.imagen-about-us-2{
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+    justify-content:left;
+    animation: pulse 2s infinite;
+    padding-top: 130px;
+    padding-right: 50px;
+    
+}
+
 .sobre-nosotros .contenido-textos{
     width: 48%;
     padding-right:10px;
@@ -343,8 +354,9 @@ main .sobre-nosotros{
 
 .brochuer{
     display: block;
-    justify-content:space-around;
+    justify-content:center;
     width: 48%;
+    padding-left: 500px;
 }
 
 .brochuer p{
@@ -598,6 +610,14 @@ footer{
         padding-bottom: 20px;
     }
 
+    .imagen-about-us-2{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+
     .eligenos{
         flex-direction: column;
         justify-content: center;
@@ -727,6 +747,15 @@ footer{
             padding-bottom: 50px;
         
     }
+
+    .imagen-about-us-2{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-top: 0px;
+    
+}
 
     .sobre-nosotros .contenido-textos{
         width: 95%;
